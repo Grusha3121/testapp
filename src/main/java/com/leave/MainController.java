@@ -9,7 +9,7 @@ public class MainController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Greetings from Spring Boot! with webhook";
     }
     
     @RequestMapping("/add/{firstno}/{secondno}")
